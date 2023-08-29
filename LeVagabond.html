@@ -4,47 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LeVagabond</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <div>
+    <div class="head">
         <header>
             <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <ul class="menu">
+                    <li class="l1"><a href="#home">Home</a></li>
+                    <li class="l2"><a href="#about">About</a></li>
+                    <li class="l3"><a href="#work">Work</a></li>
+                    <li class="l4"><a href="#resume">Resume</a></li>
+                    <li class="l5"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
     </div>
     
     <main>
-        <section id="home">
-            <h1>LeVagabond of HTML :</h1>
-            <p>-What is HTML?</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/u0OeZfIfBRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </section>
-        <section id="about">
-            <h2>About LeVagabond</h2>
-            <p>LeVagabond is here to guide you through your journey of learning and discovering all the secrets about HTML and its capabilities.</p>
-        </section>
-        <section id="work">
-            <h3>Work of art</h3>
-            <p>This is how this website was created using only HTML:</p>
+        <div id="home">
+            <div class="he1">
+                <h1>LeVagabond of HTML :</h1>
+            </div>
+           <div class="p1">
+                <p>-What is HTML?</p>
+            </div>
+           <div class="video">
+                <iframe  width="560" height="315" src="https://www.youtube.com/embed/u0OeZfIfBRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div id="about">
+            <div class="he2">
+                <h2>About LeVagabond</h2>
+            </div>
+            <div class="p2">
+                <p>LeVagabond is here to guide you through your journey of learning and discovering all the secrets about HTML and its capabilities.</p>
+            </div>
+            
+        </div>
+        <div id="work">
+            <div class="he3">
+                <h3>Work of art</h3>
+            </div>
+            <div class="p3">
+                <p>This is how this website was created using only HTML:</p>
+            </div>
             <img src="LeVagabond HTML 1.jpg" alt="HTML code of this website Nr:1">
             <img src="LeVagabond HTML 2.jpg" alt="HTML code of this website Nr:2">
-        
-        </section>
-        <section id="resume">
-            <h4>Conclusion:</h4>
-            <p>HTML (Hypertext Markup Language) is a foundational coding language used for creating and structuring web content. It defines the elements and layout of web pages, allowing for the presentation of text, images, links, and multimedia on the internet. HTML forms the backbone of websites, providing the structure and organization that browsers use to render web content for users.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form action="submit_form.php" method="post">
+        </div>
+        <div id="resume">
+            <div class="he4">
+                <h4>Conclusion:</h4>
+            </div>
+            <div class="p4">
+                <p>HTML (Hypertext Markup Language) is a foundational coding language used for creating and structuring web content. It defines the elements and layout of web pages, allowing for the presentation of text, images, links, and multimedia on the internet. HTML forms the backbone of websites, providing the structure and organization that browsers use to render web content for users.</p>
+            </div>
+            </div>
+        <div id="contact">
+            <div class="cont">
+               <h5>Contact Me</h5>
+               <div class="contactme">
+                <form>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required><br>
 
@@ -55,12 +76,24 @@
                 <textarea id="message" name="message" rows="4" required></textarea><br>
 
                 <input type="submit" value="Submit">
-            </form>
-        </section>
+                </form>
+               </div>
+            </div>
+        
+        </div>  
     </main>
 
     <footer>
-        <p>LeVagabond&copy;2023</p>
+        <div class="p5">
+            <p>LeVagabond&copy;2023</p>
+        </div>
     </footer>
 </body>
 </html>
+
+
+
+
+
+
+
